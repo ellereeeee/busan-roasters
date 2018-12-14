@@ -60,3 +60,15 @@ table {
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+/*
+  =======================================
+  Hero
+  =======================================
+*/
+
+.hero {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/hero_image.jpg) center no-repeat fixed;
+  background-size: cover;
+  height: 100vh;
+}
