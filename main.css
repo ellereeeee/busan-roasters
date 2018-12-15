@@ -79,6 +79,16 @@ body {
   font: 1.1em/normal 'Raleway', sans-serif;
 }
 
+h3 {
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 1.8em;
+  margin-top: -2em;
+}
+
+.orange {
+  color: #FF9800;
+}
+
 /*
   =======================================
   Hero
@@ -113,4 +123,26 @@ body {
   font-weight: bold;
   font-size: 1.4em;
   letter-spacing: 0.15em;
+}
+
+/*
+  =======================================
+  Products
+  =======================================
+*/
+
+.product {
+  background-color: #455A64;
+  height: 100vh;
+}
+
+.product img {
+  height: 40vh;
+  object-fit: cover;
+  width: 100%;
+}
+
+.product article {
+  height: 60vh;
+  width: 80%;
 }
