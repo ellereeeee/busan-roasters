@@ -91,6 +91,10 @@ body {
   height: 100vh;
 }
 
+.hero img {
+  margin-bottom: .5em;
+}
+
 .hero h1 {
   border-bottom: .05em solid #FFF;
   border-top: .05em solid #FFF;
