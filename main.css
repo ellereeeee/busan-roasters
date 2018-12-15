@@ -84,6 +84,19 @@ h3 {
   font-size: 1.8em;
 }
 
+.opaque-article {
+  background: rgba(0, 0, 0, 0.66);
+  height: 80%;
+  padding: 0 1em;
+  width: 85%;
+}
+
+.opaque-article h3 {
+  line-height: 1.5em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
 .orange {
   color: #FF9800;
 }
@@ -144,4 +157,16 @@ h3 {
 .product article {
   height: 60vh;
   width: 80%;
+}
+
+/*
+  =======================================
+  Location
+  =======================================
+*/
+
+.location {
+  background: url(assets/cafe.jpg) center no-repeat fixed;
+  background-size: cover;
+  height: 100vh;
 }
