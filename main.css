@@ -99,3 +99,8 @@ body {
   padding-top: .2em;
   text-align: center;
 }
+
+.hero h3 {
+  font-weight: bold;
+  margin: .6em 0;
+}
