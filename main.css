@@ -90,3 +90,14 @@ body {
   background-size: cover;
   height: 100vh;
 }
+
+.hero h1 {
+  border-bottom: .05em solid #FFF;
+  border-top: .05em solid #FFF;
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 3.3em;
+  line-height: 1em;
+  padding-bottom: .1em;
+  padding-top: .2em;
+  text-align: center;
+}
