@@ -114,12 +114,12 @@ h3 {
   text-align: center;
 }
 
-.hero h3 {
+.company-type {
   font-weight: bold;
   margin: .6em 0;
 }
 
-.hero h2 {
+.year-established {
   font-weight: bold;
   font-size: 1.4em;
   letter-spacing: 0.15em;
