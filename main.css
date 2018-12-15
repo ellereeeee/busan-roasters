@@ -104,3 +104,9 @@ body {
   font-weight: bold;
   margin: .6em 0;
 }
+
+.hero h2 {
+  font-weight: bold;
+  font-size: 1.4em;
+  letter-spacing: 0.15em;
+}
