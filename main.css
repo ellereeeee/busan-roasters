@@ -168,5 +168,5 @@ h3 {
 .location {
   background: url(assets/cafe.jpg) center no-repeat fixed;
   background-size: cover;
-  height: 100vh;
+  height: 32em;
 }
