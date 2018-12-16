@@ -102,6 +102,21 @@ h3 {
   color: #FF9800;
 }
 
+.button {
+  background-color: #F57C00;
+  border: none;
+  outline: none;
+}
+
+.button-text {
+  color: #FFF;
+  font: bold 1.66em 'Raleway', serif;
+}
+
+.button:hover {
+  background-color: rgba(245, 124, 0, .75);
+}
+
 /*
   =======================================
   Hero
@@ -200,4 +215,9 @@ h3 {
   width: 60%;
   margin-bottom: 2em;
   text-align: center;
+}
+
+.delivery button {
+  height: 4.5em;
+  width: 21em;
 }
