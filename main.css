@@ -221,3 +221,19 @@ h3 {
   height: 4.5em;
   width: 21em;
 }
+
+/*
+  =======================================
+  About Us
+  =======================================
+*/
+
+.about-us {
+  height: 32em;
+}
+
+.about-us video {
+  height: 100%; 
+  width: 100%; 
+  object-fit: cover;
+}
