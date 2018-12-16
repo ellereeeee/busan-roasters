@@ -228,12 +228,18 @@ h3 {
   =======================================
 */
 
-.about-us {
+.video {
   height: 32em;
 }
 
-.about-us video {
+.video video {
   height: 100%; 
   width: 100%; 
   object-fit: cover;
+}
+
+.about-us {
+  height: 32em;
+  position: absolute;
+  transform: translateY(-100%);
 }
