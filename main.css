@@ -146,17 +146,16 @@ h3 {
 
 .product {
   background-color: #455A64;
-  height: 100vh;
 }
 
 .product img {
-  height: 40vh;
+  height: 15em;
   object-fit: cover;
   width: 100%;
 }
 
 .product article {
-  height: 60vh;
+  height: 20em;
   width: 80%;
 }
 
