@@ -183,6 +183,17 @@ h3 {
   opacity: 0;
 }
 
+li {
+  border-top: .05em solid rgba(255, 255, 255, .9);
+  text-align: right;
+  padding: .5em 1.2em;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
 /*
   =======================================
   Hero
