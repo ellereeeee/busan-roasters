@@ -136,7 +136,7 @@ h3 {
   margin-top: .33em;
 }
 
-.nav-icon {
+#nav-icon {
   height: 12px;
   position: fixed;
   right: .55em;
@@ -144,7 +144,7 @@ h3 {
   width: 20px;
 }
 
-.nav-icon span {
+#nav-icon span {
   background: #FFF;
   display: block;
   height: .15em;
@@ -152,15 +152,19 @@ h3 {
   width: 100%;
 }
 
-.nav-icon span:nth-child(1) {
+#nav-icon span:nth-child(1) {
   top: 0px;
 }
 
-.nav-icon span:nth-child(2), .nav-icon span:nth-child(3) {
+#nav-icon span:nth-child(2) {
   top: 6px;
 }
 
-.nav-icon span:nth-child(4) {
+#nav-icon span:nth-child(3) {
+  top: 6px;
+}
+
+#nav-icon span:nth-child(4) {
   top: 12px;
 }
 
