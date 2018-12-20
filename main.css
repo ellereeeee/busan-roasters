@@ -343,20 +343,13 @@ a {
 
 footer {
   background: #212121;
-  height: 13em;
+  height: 43em;
 }
 
 .newsletter-info {
-  left: 2em;
-  margin-bottom: 3.5em;
-  position: relative;
-  top: 2em;
-  width: 70%;
-}
-
-form {
-  left: 2em;
-  position: relative;
+  margin-bottom: 2em;
+  padding-top: 1em;
+  width: 80%;
 }
 
 input {
@@ -366,7 +359,7 @@ input {
   font: 1.1em/normal 'Raleway', sans-serif;
   height: 2.5em;
   padding-left: .75em;
-  width: 12em;
+  width: 11.5em;
 }
 
 input::placeholder {
@@ -388,4 +381,8 @@ input[type=submit]:hover {
 
 input[type=submit]:active {
   background-color: #F57C00;
+}
+
+.footer-section {
+  padding: 1em 1.5em;
 }
