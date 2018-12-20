@@ -122,6 +122,10 @@ html {
   background-color: rgba(245, 124, 0, .75);
 }
 
+.button:active {
+  background-color: #F57C00;
+}
+
 /*
   =======================================
   Navbar
@@ -376,4 +380,12 @@ input[type=submit] {
   outline: none;
   width: 5em;
   padding: 0;
+}
+
+input[type=submit]:hover {
+  background-color: rgba(245, 124, 0, .75);
+}
+
+input[type=submit]:active {
+  background-color: #F57C00;
 }
