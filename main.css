@@ -131,6 +131,7 @@ html {
   background: rgba(0, 0, 0, 0.524862);
   position: fixed;
   width: 100%;
+  z-index: 1;
 }
 
 .navbar img {
