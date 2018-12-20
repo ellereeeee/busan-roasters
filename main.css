@@ -357,6 +357,7 @@ footer {
 
 form {
   margin-bottom: 1em;
+  width: 100%;
 }
 
 input {
@@ -366,7 +367,7 @@ input {
   font: 1.1em/normal 'Raleway', sans-serif;
   height: 2.5em;
   padding-left: .75em;
-  width: 11.5em;
+  width: 70%;
 }
 
 input::placeholder {
@@ -378,7 +379,7 @@ input[type=submit] {
   border: .05em solid rgba(255, 255, 255, .9);
   cursor: pointer;
   outline: none;
-  width: 5em;
+  width: 30%;
   padding: 0;
 }
 
