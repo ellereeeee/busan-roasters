@@ -109,6 +109,7 @@ html {
 .button {
   background-color: #F57C00;
   border: none;
+  cursor: pointer;
   outline: none;
 }
 
@@ -371,6 +372,7 @@ input::placeholder {
 input[type=submit] {
   background-color: #F57C00;
   border: .05em solid rgba(255, 255, 255, .9);
+  cursor: pointer;
   outline: none;
   width: 5em;
   padding: 0;
