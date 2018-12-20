@@ -352,6 +352,10 @@ footer {
   width: 80%;
 }
 
+form {
+  margin-bottom: 1em;
+}
+
 input {
   background-color: #212121;
   border: .05em solid rgba(255, 255, 255, .9);
