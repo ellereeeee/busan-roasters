@@ -453,4 +453,9 @@ input[type=submit]:active {
   .product article {
     padding: 1.5em;
   }
+  
+  .product div {
+    display: flex;
+    flex-direction: row-reverse;
+  }
 }
