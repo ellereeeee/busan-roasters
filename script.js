@@ -5,4 +5,8 @@ $(document).ready(function(){
     // toggle slide animation on drop down menu
     $('#drop-down-menu').slideToggle(250);
   });
+  // navbar changes color after scrolling past hero section
+  $(document).scroll(function() {
+    $(".navbar").toggleClass('scrolled', $(this).scrollTop() > $(".hero").height());
+  });
 });

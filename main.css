@@ -140,6 +140,7 @@ html {
 .navbar {
   background: rgba(0, 0, 0, 0.524862);
   position: fixed;
+  transition: background 250ms ease-in-out;
   width: 100%;
   z-index: 1;
 }
@@ -149,6 +150,11 @@ html {
   margin-left: .55em;
   margin-top: .33em;
   margin-bottom: .2em;
+}
+
+.scrolled {
+  background: #212121;
+  transition: background 250ms ease-in-out;
 }
 
 #nav-icon {
