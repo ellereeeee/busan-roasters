@@ -463,4 +463,21 @@ input[type=submit]:active {
     display: flex;
     flex-direction: row-reverse;
   }
+  
+  /* Footer */
+  .newsletter-info {
+    width: 60%;
+  }
+  
+  form {
+    width: 70%;
+  }
+  
+  .follow {
+    width: 60%;
+  }
+  
+  .legal {
+    width: 35%;
+  }
 }
