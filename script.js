@@ -7,6 +7,6 @@ $(document).ready(function(){
   });
   // navbar changes color after scrolling past hero section
   $(document).scroll(function() {
-    $(".navbar").toggleClass('scrolled', $(this).scrollTop() > $(".hero").height());
+    $(".navbar").toggleClass('scrolled', $(this).scrollTop() > $(".hero").height() - 1);
   });
 });
