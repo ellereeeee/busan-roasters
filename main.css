@@ -449,4 +449,8 @@ input[type=submit]:active {
   .product img, .product article {
     width: 50%;
   }
+  
+  .product article {
+    padding: 1.5em;
+  }
 }
