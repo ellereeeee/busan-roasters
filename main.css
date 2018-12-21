@@ -436,10 +436,12 @@ input[type=submit]:active {
 }
 
 @media screen and (min-width: 600px) {
+  /* Custom Styles */
   .opaque-article {
     padding: 2em;
   }
   
+  /* Products */
   .product {
     flex-direction: row;
     flex-wrap: wrap;
