@@ -435,3 +435,18 @@ input[type=submit]:active {
 .legal {
   width: 60%
 }
+
+@media screen and (min-width: 600px) {
+  .product {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .product img {
+    height: 20em;
+  }
+  
+  .product img, .product article {
+    width: 50%;
+  }
+}
