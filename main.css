@@ -288,6 +288,10 @@ a {
   height: 32em;
 }
 
+.location h3 {
+  margin-bottom: .5em;
+}
+
 /*
   =======================================
   Delivery
@@ -344,6 +348,10 @@ a {
   height: 32em;
   position: absolute;
   transform: translateY(-100%);
+}
+
+.about-us h3 {
+  margin-bottom: .5em;
 }
 
 /*
