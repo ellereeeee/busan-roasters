@@ -525,7 +525,7 @@ input[type=submit]:active {
 }
 
 @media screen and (min-width: 1000px) {
-  /* Custome Styles */
+  /* Custom Styles */
   .opaque-article {
     width: 45%;
   }
