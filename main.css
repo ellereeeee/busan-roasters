@@ -506,4 +506,14 @@ input[type=submit]:active {
   .hero br::after {
     content: ' ';
   }
+  
+  /* Footer */
+  footer div:nth-child(2) {
+    justify-content: center;
+    display: flex;
+  }
+  
+  footer div div:nth-child(2), footer div div:nth-child(3) {
+    flex-wrap: wrap;
+  }
 }
