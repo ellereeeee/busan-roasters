@@ -405,7 +405,6 @@ input[type=submit]:active {
 }
 
 .footer-section {
-  border-top: .05em solid rgba(255, 255, 255, .9);
   padding: 1em 1.5em;
 }
 
