@@ -441,6 +441,23 @@ input[type=submit]:active {
     padding: 2em;
   }
   
+  /* Hero */
+  .hero h1 {
+    font-size: 4.95em;
+  }
+  
+  .hero img {
+    width: 3.25em;
+  }
+
+  .company-type {
+    font-size: 1.25em;
+  }
+
+  .year-established {
+    font-size: 1.75em;
+  }
+  
   /* Products */
   .product {
     flex-direction: row;
