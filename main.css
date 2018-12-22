@@ -499,6 +499,11 @@ input[type=submit]:active {
 }
 
 @media screen and (min-width: 800px) {
+  /* Custom Styles */
+  .opaque-article {
+    width: 55%;
+  }
+  
   /* Hero */
   .hero br {
     content: ' ';
