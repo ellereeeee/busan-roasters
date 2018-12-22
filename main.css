@@ -529,4 +529,9 @@ input[type=submit]:active {
   .opaque-article {
     width: 45%;
   }
+  
+  /* Products */
+  .product article p {
+    width: 80%;
+  }
 }
