@@ -532,6 +532,11 @@ input[type=submit]:active {
     width: 80%;
   }
   
+  /* Location */
+  .location {
+    height: 55vw;
+  }
+  
   /* About Us */
   .video {
     height: 55vw;
