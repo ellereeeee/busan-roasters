@@ -572,3 +572,11 @@ input[type=submit]:active {
     width: 40%;
   }
 }
+
+@media screen and (min-width: 1200px) {
+  /* Custom Styles */
+  body {
+    font-size: 1.43em;
+    line-height: 1.56em;
+  }
+}
