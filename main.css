@@ -545,6 +545,15 @@ input[type=submit]:active {
     height: 56.25vw;
   }
   
+  /* Delivery */
+  .delivery {
+    height: 31.5em;
+  }
+  
+  .delivery div {
+    display: flex;
+  }
+  
   /* About Us */
   .video {
     height: 56.25vw;
