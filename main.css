@@ -461,10 +461,6 @@ input[type=submit]:active {
     flex-wrap: wrap;
   }
   
-  .product img {
-    height: 20em;
-  }
-  
   .product img, .product article {
     width: 50%;
   }
