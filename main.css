@@ -511,12 +511,13 @@ input[type=submit]:active {
   }
   
   /* Footer */
-  footer div:nth-child(2) {
+  footer .company-info:nth-child(2) {
+    align-items: flex-start;
     justify-content: center;
     display: flex;
   }
   
-  footer div div:nth-child(2), footer div div:nth-child(3) {
+  footer .company-info div:nth-child(2), footer div div:nth-child(3) {
     flex-wrap: wrap;
   }
 }
