@@ -543,12 +543,12 @@ input[type=submit]:active {
   
   /* Location */
   .location {
-    height: 55vw;
+    height: 56.25vw;
   }
   
   /* About Us */
   .video {
-    height: 55vw;
+    height: 56.25vw;
   }
 
   .video video {
@@ -556,7 +556,7 @@ input[type=submit]:active {
   }
 
   .about-us {
-    height: 55vw;
+    height: 56.25vw;
   }
   
   /* Footer */
