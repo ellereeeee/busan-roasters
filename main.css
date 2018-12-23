@@ -510,6 +510,11 @@ input[type=submit]:active {
     content: ' ';
   }
   
+  /* Products */
+  .product article p {
+    width: 80%;
+  }
+  
   /* Footer */
   footer .company-info:nth-child(2) {
     align-items: flex-start;
