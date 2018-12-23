@@ -520,6 +520,14 @@ input[type=submit]:active {
   footer .company-info div:nth-child(2), footer div div:nth-child(3) {
     flex-wrap: wrap;
   }
+  
+  .follow {
+    width: 35%;
+  }
+  
+  .legal {
+    width: 50%;
+  }
 }
 
 @media screen and (min-width: 1000px) {
