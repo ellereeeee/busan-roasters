@@ -501,11 +501,6 @@ input[type=submit]:active {
 }
 
 @media screen and (min-width: 800px) {
-  /* Custom Styles */
-  .opaque-article {
-    width: 55%;
-  }
-  
   /* Hero */
   .hero br {
     content: ' ';
@@ -541,11 +536,6 @@ input[type=submit]:active {
 }
 
 @media screen and (min-width: 1000px) {
-  /* Custom Styles */
-  .opaque-article {
-    width: 45%;
-  }
-  
   /* Products */
   .product img, .product article {
     height: 40vw;
