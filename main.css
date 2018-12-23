@@ -532,6 +532,12 @@ input[type=submit]:active {
 }
 
 @media screen and (min-width: 1000px) {
+  /* Custom Styles */
+  body {
+    font-size: 1.265em;
+    line-height: 1.43em;
+  }
+  
   /* Products */
   .product img, .product article {
     height: 40vw;
