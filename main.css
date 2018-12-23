@@ -558,4 +558,18 @@ input[type=submit]:active {
   .about-us {
     height: 55vw;
   }
+  
+  /* Footer */
+  .newsletter {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .newsletter-info {
+    width: 23em;
+  }
+  
+  form {
+    width: 40%;
+  }
 }
