@@ -468,6 +468,10 @@ input[type=submit]:active {
     width: 50%;
   }
   
+  .product article p {
+    width: 15em;
+  }
+  
   .product article {
     padding: 1.5em;
   }
@@ -512,7 +516,7 @@ input[type=submit]:active {
   
   /* Products */
   .product article p {
-    width: 80%;
+    width: 19em;
   }
   
   /* Footer */
@@ -544,10 +548,6 @@ input[type=submit]:active {
   /* Products */
   .product img, .product article {
     height: 40vw;
-  }
-  
-  .product article p {
-    width: 80%;
   }
   
   /* Location */
