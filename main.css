@@ -265,7 +265,7 @@ a {
 }
 
 .product img {
-  height: 15em;
+  height: 20em;
   object-fit: cover;
   width: 100%;
 }
