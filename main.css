@@ -537,6 +537,10 @@ input[type=submit]:active {
   }
   
   /* Products */
+  .product img, .product article {
+    height: 40vw;
+  }
+  
   .product article p {
     width: 80%;
   }
