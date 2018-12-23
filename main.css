@@ -347,6 +347,7 @@ a {
   height: 32em;
   position: absolute;
   transform: translateY(-100%);
+  width: 100%;
 }
 
 .about-us h3 {
@@ -529,5 +530,18 @@ input[type=submit]:active {
   /* Products */
   .product article p {
     width: 80%;
+  }
+  
+  /* About Us */
+  .video {
+    height: 55vw;
+  }
+
+  .video video {
+    object-fit: fill;
+  }
+
+  .about-us {
+    height: 55vw;
   }
 }
