@@ -8,5 +8,18 @@ $(document).ready(function(){
   // navbar changes color after scrolling past hero section
   $(document).scroll(function() {
     $(".navbar").toggleClass('scrolled', $(this).scrollTop() > $(".hero").height() - 1);
+    
+    // Fade in opaque articles on scroll
+    $('.opaque-article').each(function(){
+
+        // distance from top of article to top of site + height of object = bottom coordinate of article
+        var bottom_of_article = $(this).offset().top + $(this).outerHeight();
+        // distance from everything from top of scrollbar to top of site + height of window = bottom coordinate of window
+        var bottom_of_window = $(window).scrollTop() + $(window).height();
+      
+        if( bottom_of_window > bottom_of_article ){
+            $(this).animate({'opacity':'1'},500);
+        }
+    });
   });
 });

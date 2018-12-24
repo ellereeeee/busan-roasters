@@ -97,6 +97,7 @@ html {
 
 .opaque-article {
   background: rgba(0, 0, 0, 0.66);
+  opacity: 0;
   padding: 1em;
   width: 85%;
 }
