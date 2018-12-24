@@ -1,12 +1,18 @@
 $(document).ready(function(){
+  
   $('#nav-icon').click(function() {
+    
     // toggle hamburger/X icon on click
     $(this).toggleClass('open');
+    
     // toggle slide animation on drop down menu
     $('#drop-down-menu').slideToggle(250);
+    
   });
-  // navbar changes color after scrolling past hero section
+  
   $(document).scroll(function() {
+    
+    // navbar changes color after scrolling past hero section
     $(".navbar").toggleClass('scrolled', $(this).scrollTop() > $(".hero").height() - 1);
     
     // Fade in opaque articles on scroll
@@ -20,6 +26,9 @@ $(document).ready(function(){
         if( bottom_of_window > bottom_of_article ){
             $(this).animate({'opacity':'1'},500);
         }
-    });
-  });
-});
+      
+    }); //close .opaque-article each
+    
+  }); // close document scroll
+  
+}); // close document ready
