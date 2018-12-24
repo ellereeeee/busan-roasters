@@ -299,7 +299,6 @@ a {
 
 .delivery {
   background-color: #455A64;
-  height: 71em;
 }
 
 .delivery h4 {
@@ -543,11 +542,6 @@ input[type=submit]:active {
   /* Location */
   .location {
     height: 56.25vw;
-  }
-  
-  /* Delivery */
-  .delivery {
-    height: 31.5em;
   }
   
   .delivery div {
