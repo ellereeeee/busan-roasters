@@ -318,7 +318,6 @@ a {
 }
 
 .delivery p {
-  width: 60%;
   margin-bottom: 2em;
   text-align: center;
 }
@@ -540,8 +539,15 @@ input[type=submit]:active {
     height: 56.25vw;
   }
   
+  /* Delivery */
   .delivery div {
+    width: 95%;
     display: flex;
+    justify-content: space-around;
+  }
+  
+  .delivery article {
+    width: 25%;
   }
   
   /* About Us */
