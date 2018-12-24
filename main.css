@@ -578,6 +578,11 @@ input[type=submit]:active {
     font-size: 1.43em;
     line-height: 1.56em;
   }
+  
+  /* Location */
+  .location {
+    height: 100vh;
+  }
 }
 
 @media screen and (min-width: 1400px) {
