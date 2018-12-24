@@ -265,13 +265,13 @@ a {
 }
 
 .product img {
-  height: 20em;
+  height: 50vh;
   object-fit: cover;
   width: 100%;
 }
 
 .product article {
-  height: 20em;
+  height: 50vh;
   width: 80%;
 }
 
@@ -532,12 +532,6 @@ input[type=submit]:active {
   body {
     font-size: 1.265em;
     line-height: 1.43em;
-  }
-  
-  /* Products */
-  .product img, .product article {
-    height: 40vw;
-    max-height: 50vh;
   }
   
   /* Location */
