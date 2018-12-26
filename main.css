@@ -540,6 +540,11 @@ input[type=submit]:active {
   }
   
   /* Delivery */
+  .delivery {
+    height: 100vh;
+    justify-content: space-around;
+  }
+  
   .delivery div {
     width: 95%;
     display: flex;
