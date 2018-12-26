@@ -137,6 +137,10 @@ html {
   =======================================
 */
 
+.desktop-nav {
+  display: none;
+}
+
 .navbar {
   background: rgba(0, 0, 0, 0.524862);
   position: fixed;
@@ -608,13 +612,17 @@ input[type=submit]:active {
   }
   
   /* Navbar */
-  .navbar img {
-    margin-top: 9px;
-    margin-bottom: 1px;
+  #nav-icon, #drop-down-menu {
+    display: none;
   }
   
-  #nav-icon {
-    top: 13px;
+  .desktop-nav {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    right: 12px;
+    top: 3px;
+    width: 500px;
   }
   
   /* Location */
@@ -628,17 +636,5 @@ input[type=submit]:active {
   body {
     font-size: 1.495em;
     line-height: 1.69em;
-  }
-  
-  /* Navbar */
-  .navbar img {
-    margin-left: 12px;
-    margin-top: 11px;
-    margin-bottom: -1px;
-  }
-
-  #nav-icon {
-    right: 14px;
-    top: 15px;
   }
 }
