@@ -605,12 +605,6 @@ input[type=submit]:active {
 }
 
 @media screen and (min-width: 1200px) {
-  /* Custom Styles */
-  body {
-    font-size: 1.43em;
-    line-height: 1.56em;
-  }
-  
   /* Navbar */
   #nav-icon, #drop-down-menu {
     display: none;
