@@ -540,6 +540,17 @@ input[type=submit]:active {
     line-height: 1.43em;
   }
   
+  /* Navbar */
+  .navbar img {
+    margin-top: 8px;
+    margin-bottom: 2px;
+  }
+  
+  #nav-icon {
+    right: 12px;
+    top: 12px;
+  }
+  
   /* Location */
   .location {
     height: 56.25vw;
@@ -596,6 +607,16 @@ input[type=submit]:active {
     line-height: 1.56em;
   }
   
+  /* Navbar */
+  .navbar img {
+    margin-top: 9px;
+    margin-bottom: 1px;
+  }
+  
+  #nav-icon {
+    top: 13px;
+  }
+  
   /* Location */
   .location {
     height: 100vh;
@@ -607,5 +628,17 @@ input[type=submit]:active {
   body {
     font-size: 1.495em;
     line-height: 1.69em;
+  }
+  
+  /* Navbar */
+  .navbar img {
+    margin-left: 12px;
+    margin-top: 11px;
+    margin-bottom: -1px;
+  }
+
+  #nav-icon {
+    right: 14px;
+    top: 15px;
   }
 }
