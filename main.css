@@ -320,6 +320,7 @@ a {
 .delivery p {
   margin-bottom: 2em;
   text-align: center;
+  padding: 0 2em;
 }
 
 .delivery button {
@@ -472,6 +473,11 @@ input[type=submit]:active {
   .product div {
     display: flex;
     flex-direction: row-reverse;
+  }
+  
+  /* Delivery */
+  .delivery p {
+    padding: 0;
   }
   
   /* Footer */
