@@ -146,10 +146,10 @@ html {
 }
 
 .navbar img {
-  height: 1.15em;
-  margin-left: .55em;
-  margin-top: .33em;
-  margin-bottom: .2em;
+  height: 22px;
+  margin-left: 10px;
+  margin-top: 6px;
+  margin-bottom: 3px;
 }
 
 .scrolled {
@@ -161,15 +161,15 @@ html {
   cursor: pointer;
   height: 12px;
   position: fixed;
-  right: .55em;
-  top: .55em;
+  right: 10px;
+  top: 10px;
   width: 20px;
 }
 
 #nav-icon span {
   background: #FFF;
   display: block;
-  height: .15em;
+  height: 2px;
   position: absolute;
   transition: .25s ease-in-out;
   width: 100%;
@@ -211,7 +211,7 @@ ul {
 li {
   border-top: .05em solid rgba(255, 255, 255, .9);
   text-align: right;
-  padding: .5em 1.2em;
+  padding: 8.75px 21px;
 }
 
 a {
