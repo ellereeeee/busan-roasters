@@ -648,4 +648,9 @@ input[type=submit]:active {
   .product article p {
     width: 85%;
   }
+  
+  /* Location */
+  .location {
+    height: 100vh;
+  }
 }
