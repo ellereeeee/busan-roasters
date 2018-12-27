@@ -644,6 +644,11 @@ input[type=submit]:active {
     margin-bottom: .25em;
   }
   
+  /* Hero */
+  .hero {
+    font-size: .9em;
+  }
+  
   /* Products */
   .product article p {
     width: 85%;
