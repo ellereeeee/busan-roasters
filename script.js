@@ -1,34 +1,30 @@
-$(document).ready(function(){
-  
-  $('#nav-icon').click(function() {
-    
-    // toggle hamburger/X icon on click
-    $(this).toggleClass('open');
-    
-    // toggle slide animation on drop down menu
-    $('#drop-down-menu').slideToggle(250);
-    
-  });
-  
-  $(document).scroll(function() {
-    
-    // navbar changes color after scrolling past hero section
-    $(".navbar").toggleClass('scrolled', $(this).scrollTop() > $(".hero").height() - 1);
-    
-    // Fade in opaque articles on scroll
-    $('.opaque-article').each(function(){
+$('#nav-icon').click(function() {
 
-        // distance from top of article to top of site + height of object = bottom coordinate of article
-        var bottom_of_article = $(this).offset().top + $(this).outerHeight();
-        // distance from everything from top of scrollbar to top of site + height of window = bottom coordinate of window
-        var bottom_of_window = $(window).scrollTop() + $(window).height();
-      
-        if( bottom_of_window > bottom_of_article ){
-            $(this).animate({'opacity':'1'},500);
-        }
-      
-    }); //close .opaque-article each
-    
-  }); // close document scroll
-  
-}); // close document ready
+  // toggle hamburger/X icon on click
+  $(this).toggleClass('open');
+
+  // toggle slide animation on drop down menu
+  $('#drop-down-menu').slideToggle(250);
+
+});
+
+$(document).scroll(function() {
+
+  // navbar changes color after scrolling past hero section
+  $(".navbar").toggleClass('scrolled', $(this).scrollTop() > $(".hero").height() - 1);
+
+  // Fade in opaque articles on scroll
+  $('.opaque-article').each(function(){
+
+      // distance from top of article to top of site + height of object = bottom coordinate of article
+      var bottom_of_article = $(this).offset().top + $(this).outerHeight();
+      // distance from everything from top of scrollbar to top of site + height of window = bottom coordinate of window
+      var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+      if( bottom_of_window > bottom_of_article ){
+          $(this).animate({'opacity':'1'},500);
+      }
+
+  }); //close .opaque-article each
+
+}); // close document scroll
