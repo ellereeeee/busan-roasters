@@ -669,4 +669,17 @@ input[type=submit]:active {
   .delivery article {
     width: 25%;
   }
+    
+  /* About Us */
+  .video {
+    height: 56.25vw;
+  }
+
+  .video video {
+    object-fit: fill;
+  }
+
+  .about-us {
+    height: 56.25vw;
+  }
 }
