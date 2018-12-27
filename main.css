@@ -653,4 +653,20 @@ input[type=submit]:active {
   .location {
     height: 100vh;
   }
+    
+  /* Delivery */
+  .delivery {
+    height: 125vh;
+    justify-content: space-around;
+  }
+  
+  .delivery div {
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .delivery article {
+    width: 25%;
+  }
 }
