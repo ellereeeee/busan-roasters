@@ -633,7 +633,7 @@ input[type=submit]:active {
   }
 }
 
-@media screen and (max-width: 1000px) and (max-height: 400px) {
+@media screen and (max-width: 1000px) and (max-height: 400px) and (orientation: landscape) {
   /* Custom Styles */
   body {
     font-size: .8em;
@@ -681,5 +681,24 @@ input[type=submit]:active {
 
   .about-us {
     height: 56.25vw;
+  }
+  
+  /* Footer */
+  footer .company-info:nth-child(2) {
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+  }
+  
+  footer .company-info div:nth-child(2), footer div div:nth-child(3) {
+    flex-wrap: wrap;
+  }
+  
+  .follow {
+    width: 35%;
+  }
+  
+  .legal {
+    width: 50%;
   }
 }
