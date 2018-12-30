@@ -273,10 +273,20 @@ a {
   background-color: #455A64;
 }
 
-.product img {
+.cappuccino, .cake {
   height: 50vh;
-  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
+}
+
+.cappuccino {
+  background-image: url(assets/cappuccino.jpg);
+}
+
+.cake {
+  background-image: url(assets/cake.jpg);
 }
 
 .product article {
@@ -470,7 +480,7 @@ input[type=submit]:active {
     flex-wrap: wrap;
   }
   
-  .product img, .product article {
+  .cake, .cappuccino, .product article {
     width: 50%;
   }
   
@@ -481,6 +491,7 @@ input[type=submit]:active {
   .row-reverse {
     display: flex;
     flex-direction: row-reverse;
+    width: 100%;
   }
   
   /* Delivery */
