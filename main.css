@@ -274,10 +274,10 @@ a {
 }
 
 .cappuccino, .cake {
-  height: 50vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 50vh;
   width: 100%;
 }
 
@@ -290,7 +290,8 @@ a {
 }
 
 .product article {
-  height: 50vh;
+  min-height: 50vh;
+  padding: 2em 0;
   width: 80%;
 }
 
@@ -476,6 +477,7 @@ input[type=submit]:active {
   
   /* Products */
   .product {
+    align-items: stretch;
     flex-direction: row;
     flex-wrap: wrap;
   }
@@ -489,6 +491,7 @@ input[type=submit]:active {
   }
   
   .row-reverse {
+    align-items: stretch;
     display: flex;
     flex-direction: row-reverse;
     width: 100%;
