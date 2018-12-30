@@ -614,12 +614,16 @@ input[type=submit]:active {
     display: none;
   }
   
+  .navbar img {
+    height: 25px;
+  }
+  
   .desktop-nav {
     display: flex;
     justify-content: space-around;
     position: fixed;
     right: 12px;
-    top: 3px;
+    top: 7px;
     width: 500px;
   }
   
