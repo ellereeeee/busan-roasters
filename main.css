@@ -639,6 +639,11 @@ input[type=submit]:active {
     font-size: 1.495em;
     line-height: 1.69em;
   }
+  
+  /* Navbar */
+  .desktop-nav {
+    top: 3.5px;
+  }
 }
 
 @media screen and (min-width: 600px) and (max-width: 1000px) and (min-height: 100px) and (max-height: 500px) {
