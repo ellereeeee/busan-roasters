@@ -223,6 +223,10 @@ a {
   text-decoration: none;
 }
 
+.navbar #drop-down-menu a:hover, .navbar .desktop-nav a:hover {
+  color: #FF9800;
+}
+
 /*
   =======================================
   Hero
