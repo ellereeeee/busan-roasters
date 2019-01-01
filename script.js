@@ -1,3 +1,6 @@
+// auto update copyright year in footer 
+document.getElementById("year").textContent = new Date().getFullYear();
+
 $('#nav-icon').click(function() {
 
   // toggle hamburger/X icon on click
