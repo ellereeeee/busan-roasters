@@ -11,6 +11,16 @@ $('#nav-icon').click(function() {
 
 });
 
+$('.drop-down-menu-item').click(function() {
+  
+  // mobile nav goes away when text inside is clicked
+  $('#drop-down-menu').slideToggle(250);
+  
+  // toggle hamburger/X icon when menu closes
+  $('#nav-icon').toggleClass('open');
+  
+});
+
 $(document).scroll(function() {
 
   // navbar changes color after scrolling past hero section

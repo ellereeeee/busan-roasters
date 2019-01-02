@@ -141,6 +141,9 @@ html {
   display: none;
 }
 
+.drop-down-menu-item {
+}
+
 .navbar {
   background: rgba(0, 0, 0, 0.524862);
   position: fixed;
