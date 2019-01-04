@@ -501,8 +501,23 @@ input[type=submit]:active {
   }
   
   /* Delivery */
+  .delivery {
+    min-height: 100vh;
+    justify-content: space-around;
+  }
+  
+  .delivery div {
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
   .delivery p {
     padding: 0;
+  }
+  
+  .delivery article {
+    width: 25%;
   }
   
   /* Footer */
@@ -579,22 +594,6 @@ input[type=submit]:active {
   /* Location */
   .location {
     height: 56.25vw;
-  }
-  
-  /* Delivery */
-  .delivery {
-    height: 100vh;
-    justify-content: space-around;
-  }
-  
-  .delivery div {
-    width: 95%;
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  .delivery article {
-    width: 25%;
   }
   
   /* About Us */
@@ -687,22 +686,6 @@ input[type=submit]:active {
   /* Location */
   .location {
     height: 100vh;
-  }
-    
-  /* Delivery */
-  .delivery {
-    height: 125vh;
-    justify-content: space-around;
-  }
-  
-  .delivery div {
-    width: 95%;
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  .delivery article {
-    width: 25%;
   }
     
   /* About Us */
