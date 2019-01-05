@@ -322,6 +322,7 @@ a {
 
 .delivery {
   background-color: #455A64;
+  min-height: 35em;
   padding: 2em 0;
 }
 
@@ -502,7 +503,6 @@ input[type=submit]:active {
   
   /* Delivery */
   .delivery {
-    min-height: 100vh;
     justify-content: space-around;
   }
   
@@ -596,6 +596,11 @@ input[type=submit]:active {
     height: 56.25vw;
   }
   
+  /* Delivery */
+  .delivery {
+    height: 56.25vw;
+  }
+  
   /* About Us */
   .video {
     height: 56.25vw;
@@ -645,6 +650,11 @@ input[type=submit]:active {
   
   /* Location */
   .location {
+    height: 100vh;
+  }
+  
+  /* Delivery */
+  .delivery {
     height: 100vh;
   }
 }
